@@ -16,5 +16,5 @@ in header.
 ![question view](./static/images/questionnaire1.png)
 ![question view](./static/images/questionnaire2.png)
 ![question view](./static/images/questionnaire3.png)
-![summary view](./static/images/summary.png)
+![summary view](./static/images/questionnaire4.png)
 

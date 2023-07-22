@@ -2,10 +2,9 @@
   height: 50px;
   width: 100%;
   padding-top: 10px;
-  color: #fff;
   box-sizing: border-box;
   text-align: center;
-  background-color: #0099ff;
+  border-bottom: 4px solid #0099ff;
 }
 
 .container {
@@ -13,10 +12,6 @@
   width: fit-content;
   max-width: 380px;
   padding: 0 20px;
-}
-
-.step {
-  color: #000066;
 }
 
 .question {
@@ -34,9 +29,10 @@
 .rewind-btn {
   position: absolute;
   left: 10px;
-  top: -20px;
-  font-size: 28px;
+  top: -17px;
+  font-size: 24px;
   cursor: pointer;
+  color: #444;
 }
 
 .forward-btn,
