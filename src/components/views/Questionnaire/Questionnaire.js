@@ -126,7 +126,7 @@ export default function Questionnaire({ data }) {
         <p>{outcome?.text}</p>
         {outcome?.show_booking_button &&
           <div className={styles['meeting-btn']}>
-            <Button text="Book a metting" />
+            <Button text="Book a meeting" />
           </div>
         } 
         <p className={styles.restart} onClick={handleReset}>Back to the start screen</p>
