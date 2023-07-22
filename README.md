@@ -11,7 +11,7 @@ in header.
 
 ## features
 - selected option is highlighted
-- next button is disabled until you selected an option 
+- next button is disabled until you selected an option  
 
 ![question view](./static/images/questionnaire1.png)
 ![question view](./static/images/questionnaire2.png)
