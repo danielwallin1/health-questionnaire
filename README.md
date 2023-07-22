@@ -14,8 +14,8 @@ in header.
 - next button is disabled until you selected an option  
 
 ## Screenshots
-![question view](./static/images/questionnaire1.png)
-![question view](./static/images/questionnaire2.png)
-![question view](./static/images/questionnaire3.png)
-![summary view](./static/images/questionnaire4.png)
+![question view](./static/images/question1.png)
+![question view](./static/images/question2.png)
+![question view](./static/images/question3.png)
+![summary view](./static/images/question4.png)
 
