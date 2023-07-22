@@ -140,13 +140,13 @@ export default function Questionnaire({ data }) {
         {!isOutcome && Object.keys(scores).length > 1 &&
           <p className={styles['rewind-btn']} onClick={handleRewind}>&#10094;</p>
         }
-        <Heading text="Heartburn Checker" weight="500" size="18px" />
+        <Heading text="Heartburn checker" weight="500" size="18px" />
       </header>
       <section className={styles.container}>
         <div className={styles.question}>
           {!isOutcome &&
             <div>
-              <p className={styles.step}>Step {Object.keys(scores).length ? Object.keys(scores).length : 1 }</p>
+              <p className={styles.step}>Question {Object.keys(scores).length ? Object.keys(scores).length : 1 }</p>
               <Heading text={getQuestion(questionId)?.question_text} weight="700" size="22px" />
             </div>
           }   
