@@ -1,0 +1,18 @@
+.btn {
+  background-color: #aaa;
+  border: 1px solid #333;
+  color: #fff;
+  cursor: pointer;
+}
+
+.btn--disabled {
+  background-color: #eee;
+  border: 1px solid #aaa;
+  color: #aaa;  
+}
+
+.btn, .btn--disabled {
+  border-radius: 3px;
+  padding: 10px 45px 8px 25px;
+  font-size: 18px;
+}
