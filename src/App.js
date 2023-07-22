@@ -1,7 +1,7 @@
 import React from "react";
 import "./styles.css";
 import data from './data/data';
-import Questionnaire from './views/Questionnaire/Questionnaire';
+import Questionnaire from './components/views/Questionnaire/Questionnaire';
 
 export default function App() {
   return (

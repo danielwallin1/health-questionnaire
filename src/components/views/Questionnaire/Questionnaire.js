@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-import Button from '../../components/atoms/Button/Button';
-import RadioWithLabel from '../../components/molecules/RadioWithLabel/RadioWithLabel';
-import Heading from '../../components/atoms/Heading/Heading';
+import Button from '../../atoms/Button/Button';
+import Heading from '../../atoms/Heading/Heading';
+import RadioWithLabel from '../../molecules/RadioWithLabel/RadioWithLabel';
 import styles from './Questionnaire.module.css';
 
 export default function Questionnaire({ data }) {
