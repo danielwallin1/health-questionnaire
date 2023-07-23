@@ -1,17 +1,19 @@
 # Health Questionnaire
-Questionnaire for medical appointments
+Questionnaire for medical appointments.
 
 ## Tech
-- react
-- css modules
-- javaScript
-
-It is possible to navigate forward with "Next" button and backward with left arrow
-in header.
+- React
+- CSS modules
+- JavaScript
 
 ## Features
 - selected option is highlighted
-- next button is disabled until you selected an option  
+- next button is disabled and dimmed until you selected an option
+- navigate forward with "next" button and backward with left arrow in header
+
+## Implementation
+Atomic design structure with reusable components.
+Making sure code is tidy and easy to read/understand.
 
 ## Screenshots
 ![question view](./static/images/questionnaire1.png)
