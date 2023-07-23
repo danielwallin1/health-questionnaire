@@ -37,7 +37,7 @@ export default function Questionnaire({ data }) {
     setScore(value);
   }
 
-  function handleQuestionId(answer) {
+  function handleQuestionId() {
     let id = '';
     const question = getQuestion();
 
@@ -89,7 +89,7 @@ export default function Questionnaire({ data }) {
     if (!isLastQuestion) {
       setAnswer(null);
       setScore(null);
-      handleQuestionId(answer);
+      handleQuestionId();
     } else {
       handleOutcome();
       setIsOutcome(true);

@@ -59,7 +59,7 @@ function handleSelection(id, value) {
 Finding next question id, iterating over -next- array. If conditional, take answer into account, else just get id.
 
 ```javascript
-function handleQuestionId(answer) {
+function handleQuestionId() {
     let id = '';
     const question = getQuestion();
 
@@ -124,7 +124,7 @@ function handleForward() {
     if (!isLastQuestion) {
       setAnswer(null);
       setScore(null);
-      handleQuestionId(answer);
+      handleQuestionId();
     } else {
       handleOutcome();
       setIsOutcome(true);
