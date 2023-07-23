@@ -21,23 +21,24 @@ Atomic design structure with reusable components. Making sure code is tidy and e
 ---
 
 ## Components
-__Atoms__
+
+##### Atoms
 - Button
 - Label
 - Heading
 - Radio
 
-__Molecules__
+##### Molecules
 - RadioWithLabel
 
-__Views__
+##### Views
 - Quesitonnaire    
 
 ---
 
 ## Functions
 
-__getQuestion__  
+##### getQuestion    
 Returns question (object) based on id
 ```javascript
 function getQuestion() {
@@ -45,7 +46,7 @@ function getQuestion() {
   }
 ```
 
-__handleSelection__  
+##### handleSelection   
 Clickhandler, sets answer (string) and score (number)
 ```javascript
 function handleSelection(id, value) {
@@ -54,7 +55,7 @@ function handleSelection(id, value) {
   }
 ```
 
-__handleQuestionId__  
+##### handleQuestionId   
 Finding next question id, iterating over -next- array. If conditional, take answer into account, else just get id.
 
 ```javascript
@@ -74,7 +75,7 @@ function handleQuestionId(answer) {
     setQuestionId(id);
   }
 ```
-__handleOutcome__  
+##### handleOutcome  
 Calculating total score and finding correct outcome id based on score limits.
 
 ```javascript
@@ -102,7 +103,7 @@ function handleOutcome() {
     setOutcome(outcome);
   }
 ```
-__handleRewind__  
+##### handleRewind    
 Removes score when going back one question and sets previous question id.
 
 ```javascript
@@ -115,7 +116,7 @@ function handleRewind() {
   }
 ```
 
-__handleForward__  
+##### handleForward  
 Resets question answer and score when moving to next question. If last question handle outcome.
 
 ```javascript
@@ -131,7 +132,7 @@ function handleForward() {
   }
 ```
 
-__handleSummary__  
+##### handleSummary  
 At each question, checks if is last question in order to either show next question or outcome.
 
 ```javascript
@@ -142,7 +143,7 @@ At each question, checks if is last question in order to either show next questi
   }
 ```
 
-__handleReset__  
+##### handleReset  
 Resetting everything when going back to start screen from summary screen.
 
 ```javascript
@@ -155,7 +156,7 @@ function handleReset() {
   }
 ```
 
-__renderOptions__  
+##### renderOptions  
 Renders options for each questions based on data.
 
 ```javascript
@@ -176,7 +177,7 @@ function renderOptions() {
       })
   }
 ```
-__renderOutcome__  
+##### renderOutcome  
 Renders summary page based on total score.
 
 ```javascript
