@@ -6,13 +6,19 @@ Questionnaire for medical appointments.
 - CSS modules
 - JavaScript
 
+---
+
 ## Features
 - selected option is highlighted
 - next button is disabled and dimmed until you selected an option
 - navigate forward with "next" button and backward with left arrow in header
 
+---
+
 ## Implementation
 Atomic design structure with reusable components. Making sure code is tidy and easy to read/understand.
+
+---
 
 ## Components
 __Atoms__
@@ -27,6 +33,8 @@ __Molecules__
 __Views__
 - Quesitonnaire    
 
+---
+
 ## Functions
 
 __getQuestion__  
@@ -36,6 +44,7 @@ function getQuestion() {
     return data.questions.filter(item => item.id === questionId)[0];
   }
 ```
+
 __handleSelection__  
 Clickhandler, sets answer (string) and score (number)
 ```javascript
@@ -188,6 +197,8 @@ function renderOutcome() {
     )
   }
 ```
+
+---
 
 ## Screenshots
 ![question view](./static/images/questionnaire1.png)
