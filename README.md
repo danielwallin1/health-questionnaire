@@ -1,20 +1,20 @@
 # Health Questionnaire
 Questionnaire for medical appointments.
 
-### Tech
+## Tech
 - React
 - CSS modules
 - JavaScript
 
-### Features
+## Features
 - selected option is highlighted
 - next button is disabled and dimmed until you selected an option
 - navigate forward with "next" button and backward with left arrow in header
 
-### Implementation
+## Implementation
 Atomic design structure with reusable components. Making sure code is tidy and easy to read/understand.
 
-### Components
+## Components
 __Atoms__
 - Button
 - Label
@@ -27,7 +27,7 @@ __Molecules__
 __Views__
 - Quesitonnaire    
 
-### Functions
+## Functions
 
 __getQuestion__  
 Returns question (object) based on id
