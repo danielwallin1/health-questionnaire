@@ -17,5 +17,9 @@ in header.
 ![question view](./static/images/questionnaire1.png)
 ![question view](./static/images/questionnaire2.png)
 ![question view](./static/images/questionnaire3.png)
-![summary view](./static/images/questionnaire4.png)
+![question view](./static/images/questionnaire4.png)
+![question view](./static/images/questionnaire5.png)
+![summary view](./static/images/questionnaire6.png)
+![summary view](./static/images/questionnaire7.png)
+![summary view](./static/images/questionnaire8.png)
 
