@@ -32,7 +32,7 @@ Atomic design structure with reusable components. Making sure code is tidy and e
 - RadioWithLabel
 
 ### Views
-- Quesitonnaire    
+- Questionnaire    
 
 ---
 
