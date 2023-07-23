@@ -99,7 +99,7 @@ function handleOutcome() {
       }
     })
 
-	 const outcome = data.outcomes.filter(item => item.id === id)[0];
+    const outcome = data.outcomes.filter(item => item.id === id)[0];
     setOutcome(outcome);
   }
 ```
