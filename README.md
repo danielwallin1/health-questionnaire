@@ -30,14 +30,14 @@ __Views__
 
 ### Functions
 
-__getQuestion__
+__getQuestion__  
 Returns question (object) based on id
 ```javascript
 function getQuestion() {
     return data.questions.filter(item => item.id === questionId)[0];
   }
 ```
-__handleSelection__
+__handleSelection__  
 Clickhandler, sets answer (string) and score (number)
 ```javascript
 function handleSelection(id, value) {
@@ -46,7 +46,7 @@ function handleSelection(id, value) {
   }
 ```
 
-__handleQuestionId__
+__handleQuestionId__  
 Finding next question id, iterating over -next- array. If conditional, take answer into account, else just get id.
 
 ```javascript
@@ -66,7 +66,7 @@ function handleQuestionId(answer) {
     setQuestionId(id);
   }
 ```
-__handleOutcome__
+__handleOutcome__  
 Calculating total score and finding correct outcome id based on score limits.
 
 ```javascript
@@ -94,7 +94,7 @@ function handleOutcome() {
     setOutcome(outcome);
   }
 ```
-__handleRewind__
+__handleRewind__  
 Removes score when going back one question and sets previous question id.
 
 ```javascript
@@ -107,7 +107,7 @@ function handleRewind() {
   }
 ```
 
-__handleForward__
+__handleForward__  
 Resets question answer and score when moving to next question. If last question handle outcome.
 
 ```javascript
@@ -123,7 +123,7 @@ function handleForward() {
   }
 ```
 
-__handleSummary__
+__handleSummary__  
 At each question, checks if is last question in order to either show next question or outcome.
 
 ```javascript
@@ -134,7 +134,7 @@ At each question, checks if is last question in order to either show next questi
   }
 ```
 
-__handleReset__
+__handleReset__  
 Resetting everything when going back to start screen from summary screen.
 
 ```javascript
@@ -147,7 +147,7 @@ function handleReset() {
   }
 ```
 
-__renderOptions__
+__renderOptions__  
 Renders options for each questions based on data.
 
 ```javascript
@@ -168,7 +168,7 @@ function renderOptions() {
       })
   }
 ```
-__renderOutcome__
+__renderOutcome__  
 Renders summary page based on total score.
 
 ```javascript
