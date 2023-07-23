@@ -16,17 +16,16 @@ Atomic design structure with reusable components. Making sure code is tidy and e
 
 ### Components
 __Atoms__
-    > Button
-    > Label
-    > Heading
-    > Radio
+- Button
+- Label
+- Heading
+- Radio
 
 __Molecules__
-    > RadioWithLabel
+- RadioWithLabel
 
 __Views__
-    > Quesitonnaire    
-
+- Quesitonnaire    
 
 ### Functions
 
